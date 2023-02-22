@@ -1,0 +1,20 @@
+Propuesta de proyecto: PMQ : Pos Me Quejo! 
+
+Aplicación tipo Red Social en la que los usuarios registrados de forma discreta podrán visualizar fotos y vídeos de usuarios de un club en la que se van a quejar de lo que gusten, infraestructura, eventos, actividades o personas. 
+
+Requisitos esenciales de la aplicación:
+App responsive
+Login y Registro validado
+El usuario puede [crear] objeto a la base de datos
+El usuario puede [leer] objetos creados de la base de dato
+El usuario puede hacer [me gusta], añadir a [favoritos], responder, etc.
+El usuario puede [editar] el perfil o los datos publicados/creados
+El usuario puede [eliminar] el perfil o los datos publicados/creados
+Uso del motor Node/Express y React en el lado del cliente.
+La app incluye rutas protegidas (el usuario debe tener la sesión activa para acceder a las rutas de la app)
+La aplicación incluirá contenido estático (CSS, imágenes, videos, audio, etc)
+Los datos creados van a estar validados (no deben existir datos duplicados, la creación de información debe incluir contenido, etc)
+Caracteristicas extras: 
+
+Sitio para creacion de archivo de borradores.
+Mensajes entre pares
