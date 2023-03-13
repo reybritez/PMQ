@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://pmq-api.vercel.app:3001/assets/info3.jpeg"
+        src="https://pmq-api.vercel.app/assets/info3.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>

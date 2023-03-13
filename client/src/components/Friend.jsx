@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://pmq-api.vercel.app:3001/users/${_id}/${friendId}`,
+      `https://pmq-api.vercel.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

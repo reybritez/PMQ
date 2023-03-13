@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://pmq-api.vercel.app:3001/assets/${image}`}
+        src={`https://pmq-api.vercel.app/assets/${image}`}
       />
     </Box>
   );

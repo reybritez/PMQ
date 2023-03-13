@@ -36,7 +36,7 @@ const PostWidget = ({
 
   const patchLike = async () => {
     const response = await fetch(
-      `https://pmq-api.vercel.app:3001/posts/${postId}/like`,
+      `https://pmq-api.vercel.app/posts/${postId}/like`,
       {
         method: "PATCH",
         headers: {
@@ -67,7 +67,7 @@ const PostWidget = ({
           height="auto"
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-          src={`https://pmq-api.vercel.app:3001/assets/${picturePath}`}
+          src={`https://pmq-api.vercel.app/assets/${picturePath}`}
         />
       )}
       <FlexBetween mt="0.25rem">
